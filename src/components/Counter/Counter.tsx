@@ -20,7 +20,7 @@ export function Counter() {
           >
             -
         </button>
-        <span aria-live='polite' className={"m-5 text-5xl font-semibold"}>{count}</span>
+        <span aria-live='polite' className={styles.value + " m-5 text-4xl font-semibold"}>{count}</span>
         <button
           className={styles.button}
           aria-label="Increment value"
