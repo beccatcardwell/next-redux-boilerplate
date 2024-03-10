@@ -11,7 +11,7 @@ export function Counter() {
   const dispatch = useAppDispatch()
 
   return (
-    <div>
+    <div className={"m-3"}>
       <div className={"flex items-center justify-center"}>
         <button
             className={styles.button}
