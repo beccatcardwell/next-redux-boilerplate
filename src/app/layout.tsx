@@ -3,7 +3,7 @@ import { Inter } from "next/font/google"
 import "@/styles/globals.css"
 import StoreProvider from "@/components/StoreProvider"
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://next-redux-boilerplate.vercel.app'),
